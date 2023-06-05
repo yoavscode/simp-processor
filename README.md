@@ -10,10 +10,10 @@ Error Handling: Provides informative error messages for syntax errors and invali
 Debugging: Supports step-by-step execution with the ability to view register and memory values at each step.
 
 ## Usage
-Clone the repository: git clone https://github.com/yoavscode/simp-processor.git
-Create new project in Visual Studio and build asm.c
-Run the assembler: asm.exe program.asm memin.txt
-Run the simulator: sim.exe, asm.exe, fibo.asm, memin.txt, diskin.txt, irq2in.txt, memout.txt, regout.txt, trace.txt, hwregtrace.txt, cycles.txt, leds.txt, display7seg.txt, diskout.txt, monitor.txt
+* Clone the repository: git clone https://github.com/yoavscode/simp-processor.git
+* Create new project in Visual Studio and build asm.c
+* Run the assembler: asm.exe program.asm memin.txt
+* Run the simulator: sim.exe, asm.exe, fibo.asm, memin.txt, diskin.txt, irq2in.txt, memout.txt, regout.txt, trace.txt, hwregtrace.txt, cycles.txt, leds.txt, display7seg.txt, diskout.txt, monitor.txt
 
 This repository also includes three sample assembly files (fibo.asm, square.asm, disktest.asm) to demonstrate the functionality of the assembler and simulator. You can use these files as a reference or create your own assembly code to run on the SIMP processor.
 
